@@ -1,0 +1,50 @@
+header h1 {
+    color: #2080d8;
+    font-size: 50px;
+    text-align: center;
+    font-family: Helvetica;
+  }
+
+  .Parametro {
+    display: flex; /* Establece el contenedor <ul> como un flex container */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+    list-style-type: none; /* Esto elimina el marcador de lista (punto) de los elementos <li> */
+    font-family: Helvetica;
+    color: #8e9ce7;
+  }
+
+  .Parametro li {
+    border: 1px solid black; /* borde sólido de 1 píxel de ancho, de color negro */
+    margin: 5px; /*  agrega un margen de 5 píxeles entre cada elemento de la lista */
+    padding: 5px; /* agrega un espacio de relleno de 5 píxeles entre el contenido del elemento y el borde */
+    border-radius: 15px; /* agrega esquinas redondeadas */
+    flex: 1; /* Distribuye el espacio de manera uniforme entre los elementos */
+    text-align: center;
+  }
+
+  textarea[name="user-input"] {
+    width: 80%;
+    height: auto; /* Altura automática para ajustarse al contenido */
+    min-height: 200px; /* Altura mínima del textarea */
+    margin: 0 auto; /* centra el <textarea> horizontalmente estableciendo márgenes automáticos en los lados izquierdo y derecho. */ 
+    display: block; /* asegura que el <textarea> se muestre como un bloque, lo que garantiza que los márgenes automáticos se apliquen correctamente */
+    resize: vertical; /* Permite redimensionamiento vertical */
+  }
+  
+  #resetbutton {
+   color:#cbb4ed;
+   background-color:#faf5f4;
+   border-radius: 10px;
+   width: 10%;
+   height:30px;
+   margin: 0 auto;
+   display: block;
+  }
+
+  footer p{
+    color: #cbb4ed;
+    font-size: 25px;
+    text-align: right;
+    font-family: Helvetica;
+  }
+  
