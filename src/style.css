@@ -1,5 +1,9 @@
+body {
+  background: linear-gradient(to right, #f1c2e7, #ebd5e7); /* Gradiente de izquierda a derecha */
+}
+
 header h1 {
-    color: #2080d8;
+    color: #d820bf;
     font-size: 50px;
     text-align: center;
     font-family: Helvetica;
@@ -10,7 +14,7 @@ header h1 {
     flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
     list-style-type: none; /* Esto elimina el marcador de lista (punto) de los elementos <li> */
     font-family: Helvetica;
-    color: #8e9ce7;
+    color: #810a7b;
   }
 
   .Parametro li {
@@ -42,9 +46,11 @@ header h1 {
   }
 
   footer p{
-    color: #cbb4ed;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #c20bd3;
     font-size: 25px;
-    text-align: right;
     font-family: Helvetica;
   }
   
