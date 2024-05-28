@@ -12,22 +12,25 @@
     <h1>Analizador de texto</h1>
   </header>
 
-  <ul class="Parametro">
-    <li>Caracteres: </li>
-    <li>Caracteres sin espacio: </li>
-    <li>Palabras:</li>
-    <li>Números:</li>
-    <li>Suma de números:</li>
-    <li>Promedio longitud:</li>
+  <ul>
+    <li class="Parametro" data-testid="charCount">Caracteres: 0</li>
+    <li class="Parametro" data-testid="charCountNoSpaces">Caracteres sin espacio: 0</li>
+    <li class="Parametro" data-testid="wordCount">Palabras: 0</li>
+    <li class="Parametro" data-testid="numberCount">Números: 0</li>
+    <li class="Parametro" data-testid="numberSum">Suma de números: 0</li>
+    <li class="Parametro" data-testid="avgWordLength">Promedio longitud: 0</li>
   </ul>
 
-  <textarea name="user-input"></textarea>
+  <textarea name="user-input" rows="10" cols="50" placeholder="Escribe aqui..."></textarea>
   <br>
-  <button id="resetbutton">Limpiar métricas</button>
+  <button id="resetButton">Limpiar métricas</button>
 
   <footer>
     <p>Creado por: Fernanda Segura</p>
   </footer>
+  
+  <br>
+  <img src="imagenes/kuromi-hugs.gif" alt="Descripción del GIF" style="display: block; margin: 0 auto;">
 
   <script src="index.js" type="module"></script>
 </body>

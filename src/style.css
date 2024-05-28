@@ -1,23 +1,33 @@
 body {
-  background: linear-gradient(to right, #f1c2e7, #ebd5e7); /* Gradiente de izquierda a derecha */
+    background: linear-gradient(to right, #f1c2e7, #ebd5e7); /* Gradiente de izquierda a derecha */
+    background-image: url('imagenes/Hola.jpg');
+    background-size: cover; /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */ 
 }
 
-header h1 {
+header {
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Alinear el texto al centro */
+}
+
+h1 {
     color: #d820bf;
     font-size: 50px;
     text-align: center;
     font-family: Helvetica;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adicional-> Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
   }
 
-  .Parametro {
+  ul {
     display: flex; /* Establece el contenedor <ul> como un flex container */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
     list-style-type: none; /* Esto elimina el marcador de lista (punto) de los elementos <li> */
     font-family: Helvetica;
-    color: #810a7b;
+    color: black;
   }
 
-  .Parametro li {
+  .Parametro {
+    background:#ebd5e7;
     border: 1px solid black; /* borde sólido de 1 píxel de ancho, de color negro */
     margin: 5px; /*  agrega un margen de 5 píxeles entre cada elemento de la lista */
     padding: 5px; /* agrega un espacio de relleno de 5 píxeles entre el contenido del elemento y el borde */
@@ -35,17 +45,18 @@ header h1 {
     resize: vertical; /* Permite redimensionamiento vertical */
   }
   
-  #resetbutton {
-   color:#cbb4ed;
-   background-color:#faf5f4;
-   border-radius: 10px;
-   width: 10%;
-   height:30px;
-   margin: 0 auto;
-   display: block;
+  #resetButton {
+    color: black;
+    background-color: #faf5f4;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    margin: 0 auto;
+    display: block;
+    font-size: 1em;
   }
-
-  footer p{
+  
+  footer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -54,3 +65,9 @@ header h1 {
     font-family: Helvetica;
   }
   
+  /* adicnionales*/
+  /* Estilo cuando el cursor está sobre el botón */
+  #resetButton:hover {
+  background-color: rgb(226, 110, 236); /* Color de fondo cuando se resalta */
+  color: white; /* Color del texto cuando se resalta */
+}
