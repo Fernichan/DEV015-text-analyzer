@@ -6,13 +6,13 @@ body {
 }
 
 header {
-  padding: 20px; /* Espaciado interno */
+  padding: 15px; /* Espaciado interno */
   text-align: center; /* Alinear el texto al centro */
 }
 
 h1 {
     color: #d820bf;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-family: Helvetica;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* adicional-> Desplazamiento horizontal, desplazamiento vertical, desenfoque, color */
@@ -63,6 +63,7 @@ h1 {
     color: #c20bd3;
     font-size: 25px;
     font-family: Helvetica;
+    font-weight: bold
   }
   
   /* adicnionales*/
